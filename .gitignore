@@ -1,0 +1,24 @@
+# ---- 状态与缓存（含本机路径信息，绝不能入库）----
+.*_state.json
+*.json.tmp
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 运行时产物 ----
+*.log
+logs/
+
+# ---- 本地配置与密钥 ----
+.env
+.env.*
+secrets/
+*.key
+.webui_secret_key
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

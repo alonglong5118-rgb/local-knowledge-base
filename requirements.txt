@@ -1,0 +1,2 @@
+# build_knowledge_base.py 需要；knowledge_sync.py 仅用标准库不需要额外依赖
+requests>=2.31.0
